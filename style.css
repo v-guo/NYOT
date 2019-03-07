@@ -1,3 +1,43 @@
-body{
-    background-color: rgb(34, 128, 178); 
+header {
+   /*Sizing of the element*/
+   height: 600px;
+   width: 100%;
+   /*Set and adjust background image*/
+   background-image: url("flowers-desktop.jpg");
+   background-size: cover;
+   /*Center the text*/
+   text-align: center;
+   font-family: 'Major Mono Display', monospace;
+}
+
+header p {
+   font-style: italic;
+}
+
+.nav-link:hover {
+   opacity: 1;
+   background-color: #eee;
+}
+
+
+/*styling the icons of the services
+
+.services{
+   text-align center;   
+}
+
+*/
+
+.services i{
+   font-size: 20px;
+   padding: 12px 12px;
+   
+   color: #FFF;
+   background-color: #79CDCD;
+   border-radius: 50%;
+}
+
+.services span{
+   width: 80px;
+   display: inline-block;
 }
