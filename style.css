@@ -7,9 +7,11 @@ header {
    background-size: cover;
    /*Center the text*/
    text-align: center;
-   font-family: 'Major Mono Display', monospace;
 }
 
+ 
+header h1{
+font-family: 'Srisakdi', cursive;}  
 header p {
    font-style: italic;
 }
